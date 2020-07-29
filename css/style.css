@@ -10,7 +10,25 @@ img#slider {
     display: block;
     margin: auto;
 }
-#carouselExampleIndicators{
+
+div#carouselExampleIndicators {
     margin: 20px 20px 20px 20px;
     padding: 5px 5px 5px 5px;
+}
+
+img#product {
+    padding: 15px 0px 0px 0px;
+    max-width: 200px;
+    max-height: auto;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+div#introducing {
+    margin: 30px auto 30px auto;
+}
+div#card{
+    margin: 10px 10px 10px 10px;
 }

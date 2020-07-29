@@ -1,48 +1,39 @@
 <div style="background-color: #FFFFFF;">
     <!-- Footer Links -->
     <div class="container text-center text-md-left mt-5">
-
         <!-- Grid row -->
         <div class="row mt-3 dark-grey-text">
-
             <!-- Grid column -->
             <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
-
                 <!-- Content -->
-                <h6 class="text-uppercase font-weight-bold">Company name</h6>
+                <h6 class="text-uppercase font-weight-bold">SHIANGLONG</h6>
                 <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                    consectetur
-                    adipisicing elit.</p>
-
+                <p>
+                    Shianglong International LTD. established in 1988 with a focus on Biomedical Engineering Institutions.
+                    Shianglong imports, manufactures, and focuses on research and development. Our company's core asset is love;
+                    we are not only investing in the company, but as well as in the men.
+                </p>
             </div>
             <!-- Grid column -->
-
-            <!-- Grid column -->
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
                 <!-- Links -->
                 <h6 class="text-uppercase font-weight-bold">Products</h6>
                 <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
-                    <a class="dark-grey-text" href="#!">MDBootstrap</a>
+                    <a class="dark-grey-text" href="#!">Box Bottom Bag</a>
                 </p>
                 <p>
-                    <a class="dark-grey-text" href="#!">MDWordPress</a>
+                    <a class="dark-grey-text" href="#!">Stand up Pouch</a>
                 </p>
                 <p>
-                    <a class="dark-grey-text" href="#!">BrandFlow</a>
+                    <a class="dark-grey-text" href="#!">Side Gusset Bag</a>
                 </p>
                 <p>
-                    <a class="dark-grey-text" href="#!">Bootstrap Angular</a>
+                    <a class="dark-grey-text" href="#!">Clear Box Bottom Bag</a>
                 </p>
-
             </div>
             <!-- Grid column -->
-
-            <!-- Grid column -->
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
                 <!-- Links -->
                 <h6 class="text-uppercase font-weight-bold">Useful links</h6>
                 <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
@@ -58,13 +49,9 @@
                 <p>
                     <a class="dark-grey-text" href="#!">Help</a>
                 </p>
-
             </div>
             <!-- Grid column -->
-
-            <!-- Grid column -->
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
                 <!-- Links -->
                 <h6 class="text-uppercase font-weight-bold">Contact</h6>
                 <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
@@ -77,21 +64,15 @@
                     <i class="fas fa-phone mr-3"></i>+886 3-463-5901</p>
                 <p>
                     <i class="fas fa-print mr-3"></i>+886 3-463-5906</p>
-
             </div>
-            <!-- Grid column -->
-
         </div>
         <!-- Grid row -->
-
     </div>
     <!-- Footer Links -->
 </div>
-
 <!-- Copyright -->
 <div style="background-color: FFFFFF;">
     <div class="footer-copyright text-center text-black-50 py-3">© 2020 Copyright
-        <a class="dark-grey-text" href="#"> Shianglong.com</a>
+        <a class="dark-grey-text" href="index.php"> Shianglong.com</a>
     </div>
 </div>
-<!-- Copyright -->

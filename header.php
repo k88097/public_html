@@ -1,7 +1,7 @@
 <div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <!-- LOGO -->
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.php">
             <img src="images/logo.png" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy">
             <span style="font-size: 32px;">SHIANGLONG</span>
         </a>
