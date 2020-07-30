@@ -29,6 +29,15 @@ img#product {
 div#introducing {
     margin: 30px auto 30px auto;
 }
-div#card{
+
+div#card {
     margin: 10px 10px 10px 10px;
+}
+
+div#contact {
+    margin: 50px auto 20px auto;
+}
+
+section#contact-form {
+    margin: 30px auto 20px auto;
 }
