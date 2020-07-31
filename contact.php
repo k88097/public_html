@@ -6,22 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
 
-    <!-- Css Javascript jQuery -->
-    <?php include "head.php"; ?>
+    <!-- import Css Javascript jQuery -->
+    <?php include "head.html"; ?>
 
-    <!-- Google Maps Api -->
+    <!-- Google Maps api -->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4fQcXzl6jAoakdN2whVheO3l32abWjCM&callback=initMap" type="text/javascript"></script>
 
-    <script type="text/javascript">
-        function textname(){
+    <!-- Google reCAPTCHA v3 api -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdvELgZAAAAANbAtR1m4TSoTz0Z2RUqp9PlgTug"></script>
 
+    <script type="text/javascript">
+        function textname() {
+            document.getElementById("namelabel").className = "active";
+            document.getElementById("maillabel").className = "";
+            document.getElementById("subjectlabel").className = "";
+            document.getElementById("messagelabel").className = "";
+        }
+
+        function textmail() {
+            document.getElementById("namelabel").className = "";
+            document.getElementById("maillabel").className = "active";
+            document.getElementById("subjectlabel").className = "";
+            document.getElementById("messagelabel").className = "";
+        }
+
+        function textsubject() {
+            document.getElementById("namelabel").className = "";
+            document.getElementById("maillabel").className = "";
+            document.getElementById("subjectlabel").className = "active";
+            document.getElementById("messagelabel").className = "";
+        }
+
+        function textmessage() {
+            document.getElementById("namelabel").className = "";
+            document.getElementById("maillabel").className = "";
+            document.getElementById("subjectlabel").className = "";
+            document.getElementById("messagelabel").className = "active";
+        }
+
+        function onSubmit(token) {
+            document.getElementById("contact-form").submit();
         }
     </script>
 </head>
 
 <body>
-    <!-- Header -->
-    <?php include "header.php"; ?>
+    <!-- import Header -->
+    <?php include "header.html"; ?>
     <div class="container" id="contact">
         <div class="card">
             <div class="card-header text-center">
@@ -84,14 +115,14 @@
                                                     <div class="col-md-6">
                                                         <div class="md-form mb-0">
                                                             <input type="text" id="name" name="name" class="form-control" onclick="textname()">
-                                                            <label for="name" class="">Your name</label>
+                                                            <label for="name" id="namelabel" class="">Your name</label>
                                                         </div>
                                                     </div>
                                                     <!--Grid column-->
                                                     <div class="col-md-6">
                                                         <div class="md-form mb-0">
-                                                            <input type="text" id="email" name="email" class="form-control">
-                                                            <label for="email" class="">Your email</label>
+                                                            <input type="text" id="email" name="email" class="form-control" onclick="textmail()">
+                                                            <label for="email" id="maillabel" class="">Your email</label>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -99,8 +130,8 @@
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="md-form mb-0">
-                                                            <input type="text" id="subject" name="subject" class="form-control">
-                                                            <label for="subject" class="">Subject</label>
+                                                            <input type="text" id="subject" name="subject" class="form-control" onclick="textsubject()">
+                                                            <label for="subject" id="subjectlabel" class="">Subject</label>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -109,13 +140,15 @@
                                                     <!--Grid column-->
                                                     <div class="col-md-12">
                                                         <div class="md-form">
-                                                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                                            <label for="message">Your message</label>
+                                                            <textarea type="text" id="message" name="message" rows="5" class="form-control md-textarea" onclick="textmessage()"></textarea>
+                                                            <label for="message" id="messagelabel" class="">Your message</label>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="text-center text-md-right">
-                                                    <button type="submit" class="btn btn-primary">Send</button>
+                                                    <button class="btn btn-primary " data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit' data-action='submit'>
+                                                        Send
+                                                    </button>
                                                 </div>
                                                 <div class="status"></div>
                                             </form>
@@ -142,8 +175,9 @@
                 </div>
             </div>
         </div>
-        <!-- Footer -->
-        <?php include "footer.php"; ?>
+    </div>
+    <!-- import Footer -->
+    <?php include "footer.html"; ?>
 </body>
 
 </html>

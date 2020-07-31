@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shianglong</title>
 
-    <!-- Css Javascript jQuery -->
-    <?php include "head.php";?>
+    <!-- import Css Javascript jQuery -->
+    <?php include "head.html"; ?>
 </head>
 
 <body>
-    <!-- Header -->
-    <?php include "header.php"; ?>
+    <!-- import Header -->
+    <?php include "header.html"; ?>
     <!-- Slider -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -108,7 +108,9 @@
                                     Shianglong International has been working with over 8 Research and Development Centers throughout Taiwan.
                                 </p>
                                 <div style="text-align: right;">
-                                    <a href="#" class="btn btn-info">More...</a>
+                                    <a href="#" class="btn btn-info">
+                                        More<i class="fas fa-long-arrow-alt-right ml-1"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -124,7 +126,9 @@
                                     As a leading manufacturer of Flexible Packaging Bags, we provide Box Bottom Bags, Pouch, Paper Coffee Bag, Paper Bags, Sealable Bag, and Coffee Pouch.
                                 </p>
                                 <div style="text-align: right;">
-                                    <a href="#" class="btn btn-info">More...</a>
+                                    <a href="#" class="btn btn-info">
+                                        More<i class="fas fa-long-arrow-alt-right ml-1"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -158,8 +162,8 @@
             </div>
         </div>
     </div>
-    <!-- Footer -->
-    <?php include "footer.php"; ?>
+    <!-- import Footer -->
+    <?php include "footer.html"; ?>
 </body>
 
 </html>
