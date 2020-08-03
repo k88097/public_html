@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinical & Diagnostics </title>
 
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
-
     <!-- import Css Javascript jQuery -->
     <?php include "head.html"; ?>
 </head>
@@ -23,13 +21,12 @@
                 <h2>Clinical & Diagnostics</h2>
             </div>
             <div class="card-body">
-                <h5 class="card-title text-left">
+                <h4 class="card-title text-left" id="title-cnd">
                     Equipments
-                </h5>
-
-                <!-- Images -->
+                </h4>
                 <div class="row">
-                    <div class="col">
+                    <!-- Images -->
+                    <div class="col" id="col-img">
                         <!-- Image1 -->
                         <div id="img-cnd" class="row">
                             <img src="images/cnd/aed.jpg" alt="aed">
@@ -39,6 +36,17 @@
                         <div class="row" id="img-cnd">
                             <img src="images/cnd/measurement.jpg" alt="measurement">
                         </div>
+                    </div>
+                    <div class="col align-self-center">
+                        <ul>
+                            <li>Analysis & Measurement</li>
+                            <li>Chromatography</li>
+                            <li>Endoscopy</li>
+                            <li>Imaging</li>
+                            <li>Patient Handling</li>
+                            <li>Radiology</li>
+                            <li>Etc...</li>
+                        </ul>
                     </div>
                 </div>
             </div>

@@ -24,13 +24,13 @@
                 </h4>
 
                 <!-- slbuidling -->
-                <div class="row" style="margin-top: 30px;">
+                <div class="row" id="card-body">
                     <!-- Image -->
-                    <div class="col-md-3" id="img-location" style="margin: auto auto auto auto;">
+                    <div class="col-md-3" id="img-location">
                         <img src="images/locations/slbuidling.jpg" alt="slbuidling">
                     </div>
                     <!-- Locations -->
-                    <div class="col-md-6 align-self-center" style="margin: auto 30px auto auto;">
+                    <div class="col-md-6 align-self-center" id="image-depiction">
                         <div class="row">
                             <div class="col">
                                 <h5>Headquarters / Operations</h5>
@@ -48,13 +48,13 @@
                     </div>
                 </div>
                 <!-- bldg2 -->
-                <div class="row" style="margin-top: 30px;">
+                <div class="row" id="card-body">
                     <!-- Image -->
-                    <div class="col-md-3" id="img-location" style="margin: auto auto auto auto;">
+                    <div class="col-md-3" id="img-location">
                         <img src="images/locations/bldg2.jpg" alt="bldg2">
                     </div>
                     <!-- Locations -->
-                    <div class="col-md-6 align-self-center" style="margin: auto 30px auto auto;">
+                    <div class="col-md-6 align-self-center" id="image-depiction">
                         <div class="row">
                             <div class="col">
                                 <h5>R/D Centers</h5>
@@ -86,13 +86,13 @@
                     </div>
                 </div>
                 <!-- bldg -->
-                <div class="row" style="margin-top: 30px;">
+                <div class="row" id="card-body">
                     <!-- Image -->
-                    <div class="col-md-3" id="img-location" style="margin: auto auto auto auto;">
+                    <div class="col-md-3" id="img-location">
                         <img src="images/locations/bldg.jpg" alt="bldg">
                     </div>
                     <!-- Locations -->
-                    <div class="col-md-6 align-self-center" style="margin: auto 30px auto auto;">
+                    <div class="col-md-6 align-self-center" id="image-depiction">
                         <div class="row">
                             <div class="col">
                                 <h5>Manufacturers</h5>

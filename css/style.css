@@ -1,3 +1,5 @@
+/* index start*/
+
 a:link#maillink {
     color: #000000;
 }
@@ -38,18 +40,50 @@ div#contact {
     margin: 50px auto 20px auto;
 }
 
-#img-location {
-    margin: auto 30px auto 30px;
+section#contact-form {
+    margin: 30px auto 20px auto;
+}
+
+/* index end */
+
+/* location strat */
+
+div#img-location {
+    margin: auto auto auto auto;
     max-width: 100%;
     max-height: 100%;
     width: auto;
     height: auto;
 }
 
-#img-cnd {
-    margin: 20px auto 20px auto;
+div#card-body {
+    margin-top: 30px;
 }
 
-section#contact-form {
-    margin: 30px auto 20px auto;
+div#image-depiction {
+    margin: auto auto auto 30px;
 }
+
+/* location end */
+
+/* Clinical & Diagnostics start*/
+
+#title-cnd {
+    margin-left: 30px;
+}
+
+div#col-img {
+    margin: auto auto auto auto;
+}
+
+div#img-cnd {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+/* Clinical & Diagnostics end*/
+/* BME Institute start */
+div{
+    
+}
+/* BME Institute end */
