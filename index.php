@@ -23,53 +23,52 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" id="slider" src="images/slider/01.png" alt="First slide">
+                <img class="d-block w-100" id="slider" src="images/sliders/01.png" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h4>BME International Institute</h4>
                     <p>Shianglong International LTD. established in 1988 with a focus on Biomedical Engineering Institutions</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" id="slider" src="images/slider/02.png" alt="Second slide">
+                <img class="d-block w-100" id="slider" src="images/sliders/02.png" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h4>High efficiency and low cost production</h4>
                     <p></p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" id="slider" src="images/slider/03.png" alt="Third slide">
+                <img class="d-block w-100" id="slider" src="images/sliders/03.png" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h4>Funds Research and Innovation</h4>
                     <p>#1 Outstanding Asia's R&D Center for Membrane Technology </p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" id="slider" src="images/slider/04.png" alt="Third slide">
+                <img class="d-block w-100" id="slider" src="images/sliders/04.png" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h4>Top CMT in Membrane Society</h4>
                     <p></p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" id="slider" src="images/slider/05.png" alt="Third slide">
+                <img class="d-block w-100" id="slider" src="images/sliders/05.png" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h4>Locate at the excellent location</h4>
                     <p></p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" id="slider" src="images/slider/06.png" alt="Third slide">
+                <img class="d-block w-100" id="slider" src="images/sliders/06.png" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h4>Technology</h4>
                     <p>With our unique BME technology resources we are able to provide funds for research and innovation </p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" id="slider" src="images/slider/07.png" alt="Third slide">
+                <img class="d-block w-100" id="slider" src="images/sliders/07.png" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h4>Advanced Research & Training Base</h4>
                     <p>Our BME institute is here to provide GMP training camp for doctors, nurses, directors, and more as well as help with global marketing with our O2O network marketing center. </p>
@@ -100,7 +99,7 @@
                     <div class="col-sm-6">
                         <div class="card" id="card">
                             <a href="#">
-                                <img class="card-img-top" id="product" src="images/product/rnd.png" alt="Card image cap">
+                                <img class="card-img-top" id="product" src="images/products/rnd.png" alt="Card image cap">
                             </a>
                             <div class="card-body">
                                 <h5 class="card-title">Well known R/D Centers</h5>
@@ -118,7 +117,7 @@
                     <div class="col-sm-6">
                         <div class="card" id="card">
                             <a href="#">
-                                <img class="card-img-top" id="product" src="images/product/bag.png" alt="Card image cap">
+                                <img class="card-img-top" id="product" src="images/products/bag.png" alt="Card image cap">
                             </a>
                             <div class="card-body">
                                 <h5 class="card-title">Flexible Packaging Bags</h5>
