@@ -82,8 +82,16 @@ div#img-cnd {
 }
 
 /* Clinical & Diagnostics end*/
+
 /* BME Institute start */
-div{
-    
+
+img#img-bme-card-top {
+    max-width: auto;
+    max-height: auto;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
 }
+
 /* BME Institute end */
