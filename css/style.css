@@ -38,14 +38,18 @@ div#contact {
     margin: 50px auto 20px auto;
 }
 
-section#contact-form {
-    margin: 30px auto 20px auto;
-}
-
-div#img-location {
+#img-location {
     margin: auto 30px auto 30px;
     max-width: 100%;
     max-height: 100%;
     width: auto;
     height: auto;
+}
+
+#img-cnd {
+    margin: 20px auto 20px auto;
+}
+
+section#contact-form {
+    margin: 30px auto 20px auto;
 }

@@ -19,9 +19,9 @@
                 <h2>Locations</h2>
             </div>
             <div class="card-body">
-                <h5 class="card-title text-center">
+                <h4 class="card-title text-center">
                     Our R/D Centers are located throughout Taiwan. Convenient locations and easy to access.
-                </h5>
+                </h4>
 
                 <!-- slbuidling -->
                 <div class="row" style="margin-top: 30px;">
