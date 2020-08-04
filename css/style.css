@@ -95,3 +95,19 @@ img#img-bme-card-top {
 }
 
 /* BME Institute end */
+
+/* R/D Centers start*/
+
+p#rnd-title {
+    margin-left: 30px;
+}
+
+div#rnd-image {
+    margin: auto auto auto 30px;
+}
+
+div#rnd-list {
+    margin-left: auto;
+}
+
+/* R/D Centers end */
