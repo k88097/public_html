@@ -16,36 +16,25 @@
     <script src="https://www.google.com/recaptcha/api.js?render=6LdvELgZAAAAANbAtR1m4TSoTz0Z2RUqp9PlgTug"></script>
 
     <script type="text/javascript">
-        function textname() {
-            document.getElementById("namelabel").className = "active";
-            document.getElementById("maillabel").className = "";
-            document.getElementById("subjectlabel").className = "";
-            document.getElementById("messagelabel").className = "";
-        }
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6LdvELgZAAAAANbAtR1m4TSoTz0Z2RUqp9PlgTug', {
+                action: 'contact'
+            }).then(function(token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+        // Contant Form_Submit
+        function contant_form_submit() {
+            var name = document.getElementsByName("name").value;
+            var email = document.getElementsByName("email").value;
+            var subject = document.getElementsByName("subject").value;
+            var message = document.getElementsByName("message").value;
 
-        function textmail() {
-            document.getElementById("namelabel").className = "";
-            document.getElementById("maillabel").className = "active";
-            document.getElementById("subjectlabel").className = "";
-            document.getElementById("messagelabel").className = "";
-        }
-
-        function textsubject() {
-            document.getElementById("namelabel").className = "";
-            document.getElementById("maillabel").className = "";
-            document.getElementById("subjectlabel").className = "active";
-            document.getElementById("messagelabel").className = "";
-        }
-
-        function textmessage() {
-            document.getElementById("namelabel").className = "";
-            document.getElementById("maillabel").className = "";
-            document.getElementById("subjectlabel").className = "";
-            document.getElementById("messagelabel").className = "active";
-        }
-
-        function onSubmit(token) {
-            document.getElementById("contact-form").submit();
+            if (name == null) {
+                alert("name is null");
+                return false;
+            }
         }
     </script>
 </head>
@@ -111,42 +100,59 @@
                                             <form id="contact-form" name="contact-form" action="mail.php" method="POST">
                                                 <!--Grid row-->
                                                 <div class="row">
-                                                    <!--Grid column-->
-                                                    <div class="col-md-6">
-                                                        <div class="md-form mb-0">
-                                                            <input type="text" id="name" name="name" class="form-control" onclick="textname()">
-                                                            <label for="name" id="namelabel" class="">Your name</label>
+                                                    <!-- Your name -->
+                                                    <div class="col-md-6 col-sm-12">
+                                                        <div class="form-group row">
+                                                            <label for="name" class="col-lg-3 col-form-label">Name:</label>
+                                                            <div class="col-lg-9">
+                                                                <input type="text" id="name" name="name" class="form-control" placeholder="Your Name">
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <!--Grid column-->
-                                                    <div class="col-md-6">
-                                                        <div class="md-form mb-0">
-                                                            <input type="text" id="email" name="email" class="form-control" onclick="textmail()">
-                                                            <label for="email" id="maillabel" class="">Your email</label>
+                                                    <!-- Your email -->
+                                                    <div class="col-md-6 col-sm-12">
+                                                        <div class="form-group row">
+                                                            <label for="email" id="maillabel" class="col-lg-3 col-form-label">
+                                                                Email:
+                                                            </label>
+                                                            <div class="col-lg-9">
+                                                                <input type="mail" id="email" name="email" class="form-control" placeholder="Your Email">
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <!--Grid row-->
                                                 <div class="row">
+                                                    <!-- Subject -->
                                                     <div class="col-md-12">
-                                                        <div class="md-form mb-0">
-                                                            <input type="text" id="subject" name="subject" class="form-control" onclick="textsubject()">
-                                                            <label for="subject" id="subjectlabel" class="">Subject</label>
+                                                        <div class="form-group row">
+                                                            <label for="subject" id="subjectlabel" class="col-xl-2 col-form-label">
+                                                                Subject:
+                                                            </label>
+                                                            <div class="col-xl-12">
+                                                                <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <!--Grid row-->
                                                 <div class="row">
-                                                    <!--Grid column-->
+                                                    <!-- Message -->
                                                     <div class="col-md-12">
-                                                        <div class="md-form">
-                                                            <textarea type="text" id="message" name="message" rows="5" class="form-control md-textarea" onclick="textmessage()"></textarea>
-                                                            <label for="message" id="messagelabel" class="">Your message</label>
+                                                        <div class="form-group row">
+                                                            <label for="message" id="messagelabel" class="col-xl-2 col-form-label">Message:</label>
+                                                            <div class="col-xl-12">
+                                                                <textarea type="text" id="message" name="message" rows="5" class="form-control md-textarea"></textarea>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
+
+                                                <input type="hidden" value="" name="recaptcha_response" id="recaptchaResponse">
                                                 <div class="text-center text-md-right">
-                                                    <button class="btn btn-primary " data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit' data-action='submit'>
+                                                    <button class="btn btn-primary " onclick="contant_form_submit()">
                                                         Send
                                                     </button>
                                                 </div>
