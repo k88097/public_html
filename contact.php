@@ -122,7 +122,7 @@
 
                                             <input type="hidden" value="" name="recaptcha_response" id="recaptchaResponse">
                                             <div class="text-center text-md-right">
-                                                <button class="btn btn-primary " onclick="contant_form_submit()">
+                                                <button class="btn btn-primary " disabled="true" onclick="contant_form_submit()">
                                                     Send
                                                 </button>
                                             </div>
