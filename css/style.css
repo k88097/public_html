@@ -1,3 +1,14 @@
+body{
+    background-color: white;
+}
+/* Header & Footer */
+div.header{
+    background-color: ghostwhite;
+}
+div.footer,div.copyright{
+    background-color: whitesmoke;
+}
+
 /* index */
 
 a:link#maillink {
