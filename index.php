@@ -95,40 +95,39 @@
                 <h2>Products & Service</h2>
             </div>
             <div class="card-body">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card" id="card">
-                            <a href="#">
-                                <img class="card-img-top" id="product" src="images/products/rnd.png" alt="Card image cap">
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title">Well known R/D Centers</h5>
-                                <p class="card-text">
-                                    Shianglong International has been working with over 8 Research and Development Centers throughout Taiwan.
-                                </p>
-                                <div style="text-align: right;">
-                                    <a href="#" class="btn btn-info">
-                                        More<i class="fas fa-long-arrow-alt-right ml-1"></i>
-                                    </a>
-                                </div>
+                <div class="card-deck">
+                    <!-- Well known R/D Centers -->
+                    <div class="card" id="card">
+                        <a href="#">
+                            <img class="card-img-top" id="product" src="images/products/rnd.png" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Well known R/D Centers</h5>
+                            <p class="card-text">
+                                Shianglong International has been working with over 8 Research and Development Centers throughout Taiwan.
+                            </p>
+                            <div style="text-align: right;">
+                                <a href="#" class="btn btn-info">
+                                    More<i class="fas fa-long-arrow-alt-right ml-1"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="card" id="card">
-                            <a href="#">
-                                <img class="card-img-top" id="product" src="images/products/bag.png" alt="Card image cap">
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title">Flexible Packaging Bags</h5>
-                                <p class="card-text">
-                                    As a leading manufacturer of Flexible Packaging Bags, we provide Box Bottom Bags, Pouch, Paper Coffee Bag, Paper Bags, Sealable Bag, and Coffee Pouch.
-                                </p>
-                                <div style="text-align: right;">
-                                    <a href="#" class="btn btn-info">
-                                        More<i class="fas fa-long-arrow-alt-right ml-1"></i>
-                                    </a>
-                                </div>
+
+                    <!-- Flexible Packaging Bags -->
+                    <div class="card" id="card">
+                        <a href="class.php">
+                            <img class="card-img-top" id="product" src="images/products/bag.png" alt="Card image cap">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Flexible Packaging Bags</h5>
+                            <p class="card-text">
+                                As a leading manufacturer of Flexible Packaging Bags, we provide Box Bottom Bags, Pouch, Paper Coffee Bag, Paper Bags, Sealable Bag, and Coffee Pouch.
+                            </p>
+                            <div style="text-align: right;">
+                                <a href="class.php" class="btn btn-info">
+                                    More<i class="fas fa-long-arrow-alt-right ml-1"></i>
+                                </a>
                             </div>
                         </div>
                     </div>

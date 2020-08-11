@@ -1,4 +1,4 @@
-/* index start*/
+/* index */
 
 a:link#maillink {
     color: #000000;
@@ -44,9 +44,7 @@ section#contact-form {
     margin: 30px auto 20px auto;
 }
 
-/* index end */
-
-/* location strat */
+/* location */
 
 div#img-location {
     margin: auto auto auto auto;
@@ -64,9 +62,7 @@ div#image-depiction {
     margin: auto auto auto 30px;
 }
 
-/* location end */
-
-/* Clinical & Diagnostics start*/
+/* Clinical & Diagnostics */
 
 #title-cnd {
     margin-left: 30px;
@@ -81,9 +77,7 @@ div#img-cnd {
     margin-left: 30px;
 }
 
-/* Clinical & Diagnostics end*/
-
-/* BME Institute start */
+/* BME Institute */
 
 img#img-bme-card-top {
     max-width: auto;
@@ -94,9 +88,7 @@ img#img-bme-card-top {
     margin: auto;
 }
 
-/* BME Institute end */
-
-/* R/D Centers start*/
+/* R/D Centers*/
 
 p#rnd-title {
     margin-left: 30px;
@@ -110,4 +102,8 @@ div#rnd-list {
     margin-left: auto;
 }
 
-/* R/D Centers end */
+/* Contact */
+
+div#contact-col {
+    margin: 15px auto 15px auto;
+}
