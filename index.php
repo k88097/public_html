@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shianglong International LTD. established in 1988 with a focus on Biomedical Engineering Institutions. Shianglong imports, manufactures, and focuses on research and development.">
     <title>Shianglong</title>
 </head>
 
