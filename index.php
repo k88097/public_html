@@ -5,9 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shianglong</title>
-    <?php
-    header("Cache-Control: public, max-age = 31536000");
-    ?>
 </head>
 
 <body>
