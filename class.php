@@ -5,9 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
-
-    <!-- import Css Javascript jQuery -->
-    <?php include "head.html"; ?>
 </head>
 
 <body>
@@ -117,6 +114,8 @@
 
     <!-- import Footer -->
     <?php include "footer.html"; ?>
+    <!-- import Css Javascript jQuery -->
+    <?php include "foot.html"; ?>
 </body>
 
 </html>

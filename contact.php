@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
 
-    <!-- import Css Javascript jQuery -->
-    <?php include "head.html"; ?>
-
     <!-- Google Maps api -->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4fQcXzl6jAoakdN2whVheO3l32abWjCM&callback=initMap" type="text/javascript"></script>
 
@@ -155,6 +152,8 @@
     </div>
     <!-- import Footer -->
     <?php include "footer.html"; ?>
+    <!-- import Css Javascript jQuery -->
+    <?php include "foot.html"; ?>
 </body>
 
 </html>

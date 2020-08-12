@@ -5,9 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BME Institute</title>
-
-    <!-- import Css Javascript jQuery -->
-    <?php include "head.html"; ?>
 </head>
 
 <body>
@@ -55,6 +52,8 @@
     </div>
     <!-- import Footer -->
     <?php include "footer.html"; ?>
+    <!-- import Css Javascript jQuery -->
+    <?php include "foot.html"; ?>
 </body>
 
 </html>

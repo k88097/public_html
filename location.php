@@ -5,15 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Locations</title>
-
-    <!-- import Css Javascript jQuery -->
-    <?php include "head.html"; ?>
 </head>
 
 <body>
     <!-- import Header -->
     <?php include "header.html"; ?>
-    
+
     <div class="container" id="contact">
         <div class="card">
             <div class="card-header text-left">
@@ -115,6 +112,8 @@
     </div>
     <!-- import Footer -->
     <?php include "footer.html"; ?>
+    <!-- import Css Javascript jQuery -->
+    <?php include "foot.html"; ?>
 </body>
 
 </html>

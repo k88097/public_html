@@ -1,11 +1,14 @@
-body{
+body {
     background-color: white;
 }
+
 /* Header & Footer */
-div.header{
+
+div.header {
     background-color: ghostwhite;
 }
-div.footer,div.copyright{
+
+div.footer, div.copyright {
     background-color: whitesmoke;
 }
 
