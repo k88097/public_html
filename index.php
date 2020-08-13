@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Shianglong International LTD. established in 1988 with a focus on Biomedical Engineering Institutions. Shianglong imports, manufactures, and focuses on research and development.">
-    <title>Shianglong</title>
+    <meta name="description" content="Biomedical engineering institute provides GMP training camp for doctors, nurses, and directors.  As well as OEM medical devices.">
+    <meta property='og:image' content='images/logo.webp'>
+    <title>Shianglong International LTD.</title>
 </head>
 
 <body>
@@ -26,49 +27,49 @@
             <div class="carousel-item active">
                 <img class="d-block w-100" id="slider" src="images/sliders/01.webp" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h4>BME International Institute</h4>
+                    <h1>BME International Institute</h1>
                     <p>Shianglong International LTD. established in 1988 with a focus on Biomedical Engineering Institutions</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" id="slider" src="images/sliders/02.webp" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h4>High efficiency and low cost production</h4>
+                    <h1>High efficiency and low cost production</h1>
                     <p></p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" id="slider" src="images/sliders/03.webp" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h4>Funds Research and Innovation</h4>
+                    <h1>Funds Research and Innovation</h1>
                     <p>#1 Outstanding Asia's R&D Center for Membrane Technology </p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" id="slider" src="images/sliders/04.webp" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h4>Top CMT in Membrane Society</h4>
+                    <h1>Top CMT in Membrane Society</h1>
                     <p></p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" id="slider" src="images/sliders/05.webp" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h4>Locate at the excellent location</h4>
+                    <h1>Locate at the excellent location</h1>
                     <p></p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" id="slider" src="images/sliders/06.webp" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h4>Technology</h4>
+                    <h1>Technology</h1>
                     <p>With our unique BME technology resources we are able to provide funds for research and innovation </p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" id="slider" src="images/sliders/07.webp" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h4>Advanced Research & Training Base</h4>
+                    <h1>Advanced Research & Training Base</h1>
                     <p>Our BME institute is here to provide GMP training camp for doctors, nurses, directors, and more as well as help with global marketing with our O2O network marketing center. </p>
                 </div>
             </div>
@@ -90,7 +91,9 @@
     <div class="container">
         <div class="card">
             <div class="card-header text-center">
-                <h2>Products & Service</h2>
+                <h2>
+                    Products & Service
+                </h2>
             </div>
             <div class="card-body">
                 <div class="card-deck">
@@ -137,7 +140,9 @@
     <div class="container" id="introducing">
         <div class="card">
             <div class="card-header">
-                <h2>Introducing Shianglong</h2>
+                <h2>
+                    Introducing Shianglong
+                </h2>
             </div>
             <div class="card-body">
                 <h5 class="card-title" style="color: red;">
