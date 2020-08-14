@@ -7,6 +7,8 @@
     <meta name="description" content="Biomedical engineering institute provides GMP training camp for doctors, nurses, and directors.  As well as OEM medical devices.">
     <meta property='og:image' content='images/logo.webp'>
     <title>Shianglong International LTD.</title>
+
+    <?php include "head.html";?>
 </head>
 
 <body>
