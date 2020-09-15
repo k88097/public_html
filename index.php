@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Biomedical engineering institute provides GMP training camp for doctors, nurses, and directors.">
+    <meta name="description" content="Shianglong | Coffee Bag | GMP">
     <meta property='og:image' content='images/logo.webp'>
     <title>Shianglong International LTD.</title>
 

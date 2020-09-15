@@ -24,8 +24,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response'])
 
         $content = "From: $name \n Email: $email \n Message: $message";
         $recipient = "kevin.chao@shianglong";
-        $mailheader = "From: $email \r\n";
-        mail($recipient, $subject, $message, $mailheader) or die("Error!");
+        $header = "From: $email \r\n";
+        mail($recipient, $subject, $message, $header) or die("Error!");
         echo "Email sent!";
     } else {
         // Not verified - show form error
